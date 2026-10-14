@@ -1,4 +1,4 @@
-#  Meme Matcher - Real-time Facial Expression to Meme Matching
+#  Meme Detector - Real-time Facial Expression to Meme Matching
 
 A real-time computer vision application that matches your facial expressions and hand gestures to famous internet memes using MediaPipe's face and hand detection.
 
@@ -81,14 +81,6 @@ For each frame, the app calculates:
 - Higher weights for distinctive features (cheers score: 30 points, hand_raised: 25 points)
 - Finds the best match and displays it alongside your video feed
 
-##  Contributing
-
-Feel free to:
-- Add more memes (with hand gestures for better accuracy!)
-- Improve the matching algorithm
-- Enhance the UI
-- Optimize performance
-
 ##  License
 
 This project is for educational and entertainment purposes.
@@ -99,16 +91,5 @@ This project is for educational and entertainment purposes.
 - **Meme Images**: Fair use, iconic internet memes
 - **OpenCV**: Open source computer vision library
 
-##  Future Improvements
 
-- [ ] Add more memes (target: 10-15)
-- [ ] GUI for meme selection
-- [ ] Save matched screenshots
-- [ ] Expression history/statistics
-- [ ] Multiple face support
-- [ ] Custom meme upload via UI
-- [ ] Performance optimizations
-- [ ] Mobile app version
-
----
 
